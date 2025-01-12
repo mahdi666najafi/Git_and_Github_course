@@ -1,0 +1,11 @@
+git checkout:
+git checkout feature-branch تغییر به یک برنچ موجود
+git checkout -b new-feature  ایجاد یک برنچ جدید و تغییر به آن
+git checkout -- example.txt  بازگرداندن یک فایل به آخرین حالت کامیت‌شده
+git checkout -f main  تغییر برنچ با نادیده گرفتن تغییرات اعمال‌شده 
+
+git stash:
+git stash ذخیره موقت تغییرات اعمال‌شده در یک محیط جداگانه (بدون کامیت)
+git stash list نمایش لیست تمام تغییرات ذخیره‌شده
+git stash apply  اعمال آخرین تغییرات ذخیره‌شده
+git stash pop حذف یک تغییرات ذخیره‌شده خاص از لیست
